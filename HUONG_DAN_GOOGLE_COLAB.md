@@ -11,14 +11,14 @@ Bạn có 2 cách rất nhanh để mở:
 ### Cách 1: Mở trực tiếp 1-click từ GitHub (Khuyên dùng)
 Nhấp trực tiếp vào liên kết bên dưới để Colab tải thẳng notebook từ repository của bạn:
 
-👉 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_STUDENT.ipynb)
+👉 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_2A202602394.ipynb)
 
-*URL trực tiếp:* `https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_STUDENT.ipynb`
+*URL trực tiếp:* `https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_2A202602394.ipynb`
 
 ### Cách 2: Upload thủ công file `.ipynb`
 1. Truy cập [Google Colab](https://colab.research.google.com/).
 2. Chọn thẻ **Upload** (Tải lên).
-3. Chọn file `Lab/kalman_fusion_lab_STUDENT.ipynb` từ thư mục trên máy tính của bạn.
+3. Chọn file `Lab/kalman_fusion_lab_2A202602394.ipynb` từ thư mục trên máy tính của bạn.
 
 > [!NOTE]
 > **Về dữ liệu & thư viện:** Toàn bộ dữ liệu của bài lab (quỹ đạo xe, cảm biến giả lập, nhiễu) đều được sinh trực tiếp bằng thuật toán trong RAM của Python. Google Colab đã cài sẵn `numpy`, `matplotlib`, `scipy` nên bạn **không cần upload thêm bất kỳ file dữ liệu nào** và **không cần cài đặt gì thêm**.
@@ -211,10 +211,10 @@ Khi đã hoàn thành và tất cả các cell kiểm tra đều báo `✅ Exerc
 ### Cách A: Tải file `.ipynb` về máy rồi commit (Khuyên dùng)
 1. Trên menu Colab, chọn **File** $\rightarrow$ **Download** $\rightarrow$ **Download .ipynb**.
 2. Di chuyển file vừa tải về đè lên file:
-   `d:\AI20K\Lab\K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot\Lab\kalman_fusion_lab_STUDENT.ipynb`
+   `d:\AI20K\Lab\K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot\Lab\kalman_fusion_lab_2A202602394.ipynb`
 3. Mở terminal tại thư mục dự án và đẩy lên GitHub:
    ```bash
-   git add Lab/kalman_fusion_lab_STUDENT.ipynb
+   git add Lab/kalman_fusion_lab_2A202602394.ipynb
    git commit -m "feat: complete kalman filter lab"
    git push origin main
    ```
@@ -222,5 +222,5 @@ Khi đã hoàn thành và tất cả các cell kiểm tra đều báo `✅ Exerc
 ### Cách B: Lưu trực tiếp lên GitHub từ Colab
 1. Trên menu Colab, chọn **File** $\rightarrow$ **Save a copy in GitHub** (Lưu một bản sao vào GitHub).
 2. Chọn repository: `nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot`.
-3. File path: `Lab/kalman_fusion_lab_STUDENT.ipynb`.
+3. File path: `Lab/kalman_fusion_lab_2A202602394.ipynb`.
 4. Bấm **OK** để lưu trực tiếp vào nhánh `main`.

@@ -1,6 +1,6 @@
 # K4 · Track 4 · Ngày 5 — Kalman Filter Pilot
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_STUDENT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyenquangdao2004-glitch/K4-Track4-Day5-NguyenQuangDao-2A202602394-Kalman-Filter-Pilot/blob/main/Lab/kalman_fusion_lab_2A202602394.ipynb)
 *(Xem cẩm nang chi tiết tại [HUONG_DAN_GOOGLE_COLAB.md](HUONG_DAN_GOOGLE_COLAB.md))*
 
 Bài lab 120 phút: từ số đo nhiễu đến một bộ theo dõi hợp nhất LiDAR, radar và camera, viết bằng NumPy. Buổi lab kết thúc bằng nhiệm vụ chẩn đoán cảm biến cho xe tự hành **Lynx-07**. Mỗi học viên nhận một quỹ đạo và một lỗi cảm biến riêng, sinh từ `STUDENT_ID`.
@@ -9,7 +9,7 @@ Bài lab 120 phút: từ số đo nhiễu đến một bộ theo dõi hợp nh�
 
 | File | Ai dùng | Ghi chú |
 |:--|:--|:--|
-| `Lab/kalman_fusion_lab_STUDENT.ipynb` | Học viên | Notebook phát trên lớp |
+| `Lab/kalman_fusion_lab_2A202602394.ipynb` | Học viên | Notebook hoàn thành nộp bài |
 | `Lab/kalman_fusion_lab_SOLUTIONS.ipynb` | Giảng viên | Lời giải bài 5–8. Không phát trước khi lab kết thúc |
 | `Lab/instructor_answer_key.py` | Giảng viên | Sinh đáp án Phần 9 từ danh sách mã số |
 | `Lab/grade_lab.py` | Giảng viên | Chấm tự động hàng loạt file nộp |
@@ -32,7 +32,7 @@ pip install numpy matplotlib scipy jupyter ipywidgets nbformat nbclient
 
 ## Học viên
 
-1. Mở `Lab/kalman_fusion_lab_STUDENT.ipynb`.
+1. Mở `Lab/kalman_fusion_lab_2A202602394.ipynb`.
 2. Chạy các cell từ trên xuống. Sau mỗi bài tập, chạy ô kiểm tra — dòng `✅ Exercise … passed` nghĩa là bài đó đúng.
 3. Phần 1–4 đã điền sẵn: chạy và đọc, không chấm.
 4. Tự viết bài **5.1, 5.2, 6.1, 7.1** (đang là `raise NotImplementedError`).
